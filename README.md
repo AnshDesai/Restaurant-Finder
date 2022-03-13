@@ -20,7 +20,7 @@ We provide Yelp-API support, incorporating suggestions and real-time chat.
 
 
 ## Sample responses
-![example]("images/sample.png")
+![example](images/sample.png)
 
 ## Steps
 1. Build and deploy the frontend of the application<br>
