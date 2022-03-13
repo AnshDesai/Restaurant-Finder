@@ -19,8 +19,8 @@ We provide Yelp-API support, incorporating suggestions and real-time chat.
 10. AWS Congito - For authentication
 
 
-## Chat Example
-![example]("images/chat_example (1).png")
+## Sample responses
+![example]("images/sample.png")
 
 ## Steps
 1. Build and deploy the frontend of the application<br>
