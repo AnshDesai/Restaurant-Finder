@@ -146,4 +146,7 @@ We provide Yelp-API support, incorporating suggestions and real-time chat.
                 restaurant.<br>
             ii. Modify the rest of the LF2 function if necessary to send the user text/email.
     * Set up a CloudWatch event trigger that runs every minute and invokes the Lambda function as a result:
-        https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/RunLabdaSchedule.html. This automates the queue worker Lambda to poll                and process suggestion requests on its own.
+        https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/RunLabdaSchedule.html. This automates the queue worker Lambda to poll and process suggestion requests on its own.
+
+## Demo
+[Chatbot](http://dca-9223.s3-website-us-east-1.amazonaws.com/)
