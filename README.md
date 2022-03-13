@@ -3,8 +3,11 @@ A Serverless, microservice-driven web application built entirely with Amazon Web
 
 We provide Yelp-API support, incorporating suggestions and real-time chat.
 
+## Chatbot
+![example](images/chat_example.png)
+
 ## Chat Architecture Diagram
-![diagram](Images/architecture_diagram.png)
+![diagram](images/architecture_diagram.png)
 
 ## Services Used
 1. Amazon S3 - To host the frontend
@@ -20,7 +23,7 @@ We provide Yelp-API support, incorporating suggestions and real-time chat.
 
 
 ## Chat Example
-![example](Images/chat_example.png)
+![example](images/chat_example(1).png)
 
 ## Steps
 1. Build and deploy the frontend of the application<br>
@@ -131,7 +134,7 @@ We provide Yelp-API support, incorporating suggestions and real-time chat.
         type. This data type will be of composite type stored as JSON in ElasticSearch.
         https://www.elastic.co/guide/en/elasticsearch/guide/current/mapping.html
     - You only need to store RestaurantID and Cuisine for each restaurant
-
+![example](images/elastic_indices.png)
 7. Build a suggestions module, that is decoupled from the Lex chatbot.
 
     * Create a new Lambda function (LF2) that acts as a queue worker. Whenever it is invoked it<br>
