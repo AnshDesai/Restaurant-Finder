@@ -3,9 +3,6 @@ A Serverless, microservice-driven web application built entirely with Amazon Web
 
 We provide Yelp-API support, incorporating suggestions and real-time chat.
 
-## Chatbot
-![example](images/chat_example.png)
-
 ## Chat Architecture Diagram
 ![diagram](images/architecture_diagram.png)
 
@@ -153,3 +150,4 @@ We provide Yelp-API support, incorporating suggestions and real-time chat.
 
 ## Demo
 [Chatbot](http://dca-9223.s3-website-us-east-1.amazonaws.com/)
+![example](images/chat_example.png)
